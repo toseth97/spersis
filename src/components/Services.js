@@ -34,7 +34,7 @@ const Services = () => {
                             alt={item.name}
                         />
                         <h1 className="text-xl my-8 h-10">{item.name}</h1>
-                        <p className="opacity-60">{item.body}</p>
+                        <p className="opacity-60 mb-8">{item.body}</p>
                     </div>
                 ))}
             </div>
