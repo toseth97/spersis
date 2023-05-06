@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
     return (
-        <div className="md:w-9/12 w-11/12 mt-8 md:flex flex-col items-center md:gap-x-3 px-8">
+        <div
+            id="about"
+            className="md:w-9/12 w-11/12 mt-8 md:flex flex-col items-center md:gap-x-3 px-8"
+        >
             <h1 className="text-3xl text-center">About Me</h1>
             <div className="underlines md:bg-blue-700"></div>
             <div className="mt-8 md:flex md:gap-16">

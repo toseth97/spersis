@@ -2,7 +2,10 @@ import React from "react";
 
 const HeroPage = () => {
     return (
-        <div className="md:w-9/12 w-11/12 mt-8 md:flex md:items-center">
+        <div
+            id="home"
+            className="md:w-9/12 w-11/12 mt-8 md:flex md:items-center"
+        >
             <div className="md:w-7/12">
                 <h1 className="text-6xl mb-8 full_name">I'm Samuel Persis</h1>
                 <p className="mt-8">

@@ -20,7 +20,10 @@ const Services = () => {
     ];
 
     return (
-        <div className="md:w-9/12 w-11/12 mt-8 md:flex flex-col items-center md:gap-x-3 px-8">
+        <div
+            id="services"
+            className="md:w-9/12 w-11/12 mt-8 md:flex flex-col items-center md:gap-x-3 px-8"
+        >
             <h1 className="md:mt-8 text-3xl text-center">
                 What Services I'm Providing
             </h1>
