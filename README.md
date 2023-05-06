@@ -12,4 +12,4 @@
 
 -   Then you can run "npm run build" to build the project for production.
 
--   Made with love from someone anonymous in Nigeria.
+-   Made with love by Tobiloba Lawal
