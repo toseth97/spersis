@@ -16,7 +16,7 @@ const HeroPage = () => {
                 </p>
                 <button className="hire_me mt-8">
                     <a
-                        href="/"
+                        href="https://wa.me/+2348145611114"
                         class="block w-full py-1 pl-3 px-4 pr-4 text-white hover:bg-blue-700 bg-blue-500 rounded md:border-0"
                     >
                         Hire me...
