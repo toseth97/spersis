@@ -36,7 +36,9 @@ const Services = () => {
                             src={item.img}
                             alt={item.name}
                         />
-                        <h1 className="text-xl my-8 h-10">{item.name}</h1>
+                        <h1 className="text-xl my-8 h-10 font-bold">
+                            {item.name}
+                        </h1>
                         <p className="opacity-60 mb-8">{item.body}</p>
                     </div>
                 ))}
