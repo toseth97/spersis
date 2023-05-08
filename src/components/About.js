@@ -26,7 +26,7 @@ const About = () => {
                             magic happen.
                         </p>
                     </div>
-                    <div className="mt-8 md:mt-0 md:w-3/12 ">
+                    <div className="mt-8 md:mt-0 md:w-4/12 ">
                         <img
                             className="rounded"
                             src="./static/img/about.webp"

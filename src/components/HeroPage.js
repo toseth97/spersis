@@ -4,7 +4,7 @@ const HeroPage = () => {
     return (
         <div
             id="home"
-            className="section md:w-9/12 w-11/12 mt-8 md:flex md:items-center"
+            className="section md:w-9/12 w-11/12 mt-8 gap-10 md:flex md:items-center"
         >
             <div className="md:w-7/12">
                 <h1 className="text-6xl mb-8 full_name">I'm Samuel Persis</h1>

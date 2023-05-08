@@ -17,7 +17,7 @@ const Experience = () => {
     ];
 
     return (
-        <div className="md:flex flex-col items-center dark:bg-white dark:text-black bg-gray-900 text-white">
+        <div className="flex flex-col items-center dark:bg-white dark:text-black bg-gray-900 text-white">
             <div
                 id="experience"
                 className="section md:w-9/12 w-11/12 mt-8 md:flex flex-col items-center md:gap-x-3 px-8"
