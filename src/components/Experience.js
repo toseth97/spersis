@@ -28,8 +28,10 @@ const Experience = () => {
                 <div className="underlines md:bg-blue-700"></div>
                 <div className="mt-8 md:grid md:grid-cols-3 gap-3">
                     {experience.map((item) => (
-                        <div className="dark:bg-gray-900 dark:text-white bg-gray-900 text-white dark:text-black  md:my-0 my-2 rounded p-8">
-                            <h1 className="text-xl my-8 h-10">{item.name}</h1>
+                        <div className="dark:bg-gray-900 bg-white text-black dark:text-white   md:my-0 my-2 rounded p-8">
+                            <h1 className="text-xl md:my-8 my-2 h-10">
+                                {item.name}
+                            </h1>
                             <p className="opacity-70">{item.body}</p>
                         </div>
                     ))}
