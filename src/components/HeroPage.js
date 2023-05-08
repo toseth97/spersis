@@ -23,7 +23,7 @@ const HeroPage = () => {
                     </a>
                 </button>
             </div>
-            <div className="mt-8 md:mt-0">
+            <div className="mt-8 md:mt-0 md:w-5/12">
                 <img
                     className="rounded-full"
                     src="./static/img/heropg.jpg"
