@@ -17,19 +17,23 @@ const Experience = () => {
     ];
 
     return (
-        <div
-            id="experience"
-            className="md:w-9/12 w-11/12 mt-8 md:flex flex-col items-center md:gap-x-3 px-8"
-        >
-            <h1 className="md:mt-8 text-3xl text-center">Work Experience</h1>
-            <div className="underlines md:bg-blue-700"></div>
-            <div className="mt-8 md:grid md:grid-cols-3 gap-3">
-                {experience.map((item) => (
-                    <div className="dark:bg-white bg-gray-900 text-white dark:text-black  md:my-0 my-2 rounded p-8">
-                        <h1 className="text-xl my-8 h-10">{item.name}</h1>
-                        <p className="opacity-70">{item.body}</p>
-                    </div>
-                ))}
+        <div className="md:flex flex-col items-center dark:bg-white dark:text-black bg-gray-900 text-white">
+            <div
+                id="experience"
+                className="section md:w-9/12 w-11/12 mt-8 md:flex flex-col items-center md:gap-x-3 px-8"
+            >
+                <h1 className="md:mt-8 text-3xl text-center">
+                    Work Experience
+                </h1>
+                <div className="underlines md:bg-blue-700"></div>
+                <div className="mt-8 md:grid md:grid-cols-3 gap-3">
+                    {experience.map((item) => (
+                        <div className="dark:bg-gray-900 dark:text-white bg-gray-900 text-white dark:text-black  md:my-0 my-2 rounded p-8">
+                            <h1 className="text-xl my-8 h-10">{item.name}</h1>
+                            <p className="opacity-70">{item.body}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

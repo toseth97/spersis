@@ -4,7 +4,7 @@ const HeroPage = () => {
     return (
         <div
             id="home"
-            className="md:w-9/12 w-11/12 mt-8 md:flex md:items-center"
+            className="section md:w-9/12 w-11/12 mt-8 md:flex md:items-center"
         >
             <div className="md:w-7/12">
                 <h1 className="text-6xl mb-8 full_name">I'm Samuel Persis</h1>
@@ -16,7 +16,7 @@ const HeroPage = () => {
                 </p>
                 <button className="hire_me mt-8">
                     <a
-                        href="https://wa.me/+2348145611114"
+                        href="mailto:samuelpersisoladejo@gmail.com"
                         class="block w-full py-1 pl-3 px-4 pr-4 text-white hover:bg-blue-700 bg-blue-500 rounded md:border-0"
                     >
                         Hire me...
