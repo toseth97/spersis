@@ -72,7 +72,7 @@ const Navigation = () => {
                         <li>
                             <button className="">
                                 <a
-                                    href="https://wa.me/+2348145611114"
+                                    href="mailto:samuelpersisoladejo@gmail.com"
                                     class="block w-full py-1 pl-3 px-4 pr-4 text-white hover:bg-blue-700 bg-blue-500 rounded md:border-0"
                                 >
                                     Hire me...
